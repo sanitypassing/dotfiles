@@ -1,4 +1,1 @@
-dotfiles
-========
-
-Configuration files
+Dotfile backup.
