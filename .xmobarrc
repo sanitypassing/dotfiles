@@ -1,0 +1,16 @@
+Config {
+    font = "xft:DejaVu Sans Mono:size=10:antialias=true",
+    bgColor = "black",
+    fgColor = "grey",
+    position = Top,
+    lowerOnStart = False,
+    commands = [
+        Run DynNetwork ["-t", "network - <rx>KB | <tx>KB"] 10,
+        Run Date "%A, %B %d, %Y - %H:%M:%S" "date" 10,
+        Run Memory ["-t", "memory - <usedratio>%"] 10,
+        Run Cpu ["-t", "cpu - <total>%", "-L", "3", "-H", "50", "--normal", "green", "--high", "red"] 10,
+        Run StdinReader
+    ],
+    template = "sanitypassing@%uname -n% | %StdinReader% }{ %cpu% | %memory% | %dynnetwork% | <fc=#83F52C>%date%</fc>"
+
+}
