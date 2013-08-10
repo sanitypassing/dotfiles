@@ -12,7 +12,6 @@ set fileencoding=utf-8
 
 set history=2048 
 
-set mouse=a
 set number
 set autoread 
 set showcmd  
@@ -26,7 +25,7 @@ set cmdheight=2
 set laststatus=2
 set cc=80
 
-set scrolloff=2
+set scrolloff=6
 
 set shiftwidth=4
 set softtabstop=4

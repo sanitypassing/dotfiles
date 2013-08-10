@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/sanitypassing/.xmonad'
+let g:netrw_dirhist_2='/home/sanitypassing/Downloads/[mikudb] Hatsune Miku &+ Vocaloid Discography -All of MikuDB- V2 UPDATE #1 (387 Albums) [MP3]'
+let g:netrw_dirhist_3='/etc/systemd/system'
+let g:netrw_dirhist_4='/home/sanitypassing/Downloads'
+let g:netrw_dirhist_5='/home/sanitypassing/.torrent'
+let g:netrw_dirhist_6='/home/sanitypassing/.xmonad'
